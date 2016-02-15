@@ -1,14 +1,13 @@
-html, body {
+html, body, .container, #root {
   height: 100%;
   background: #737373;
   overflow: hidden;
   font-family: sans-serif;
 }
-
-body > header, body > footer {
+.main-header, .main-footer {
   height: 15%;
 }
-body > main {
+main {
   height: 70%;
   margin: 0 15%;
   display: flex;
@@ -17,7 +16,7 @@ body > main {
   border-radius: 5px;
 }
 
-body > main > aside {
+main > aside {
   width: 30%;
   background: #DCDDE2;
   border-top-left-radius: 5px;
@@ -25,7 +24,7 @@ body > main > aside {
   display: flex;
   flex-direction: column;
 }
-body > main > .details {
+ main > .details {
   width: 70%;
 }
 

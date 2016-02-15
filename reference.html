@@ -6,54 +6,58 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-	    <header></header>
-      <main>
-        <aside class="side-bar">
-          <div class="search-box">
-            <input type="search" placeholder="Search...">
+    <div id="root">
+      <div class="container">
+        <header class="main-header"></header>
+        <main>
+          <aside class="side-bar">
+            <div class="search-box">
+              <input type="search" placeholder="Search...">
+            </div>
+            <div class="list">
+              <ul>
+                <li class="divider">A</li>
+                <li>Adam<em>Peterson</em></li>
+                <li class="divider">P</li>
+                <li class="selected">Peter <em>Griffin</em></li>
+              </ul>
+            </div>
+          </aside>
+          <div class="details">
+            <header>
+              <div class="picture" style="background-image=url('')">
+                <div class="initials">PG</div>
+              </div>
+              <div class="title">
+                <h1 class="name">Peter Griffin</h1>
+                <div class="subtitle">Important stuff</div>
+              </div>
+            </header>
+            <table>
+              <tbody>
+                <tr>
+                  <td>email</td>
+                  <td>some@example.com</td>
+                </tr>
+                <tr>
+                  <td>phone</td>
+                  <td>(310) 923-8923</td>
+                </tr>
+              </tbody>
+            </table>
+            <footer>
+              <div class="left">
+                <button>+</button>
+              </div>
+              <div class="right">
+                <button>Delete</button>
+                <button>Edit</button>
+              </div>
+            </footer>
           </div>
-          <div class="list">
-	           <ul>
-               <li class="divider">A</li>
-               <li>Adam<em>Peterson</em></li>
-               <li class="divider">P</li>
-               <li class="selected">Peter <em>Griffin</em></li>
-             </ul>
-          </div>
-        </aside>
-        <div class="details">
-          <header>
-            <div class="picture" style="background-image=url('')">
-              <div class="initials">PG</div>
-            </div>
-            <div class="title">
-              <h1 class="name">Peter Griffin</h1>
-              <div class="subtitle">Important stuff</div>
-            </div>
-          </header>
-          <table>
-            <tbody>
-              <tr>
-                <td>email</td>
-                <td>some@example.com</td>
-              </tr>
-              <tr>
-                <td>phone</td>
-                <td>(310) 923-8923</td>
-              </tr>
-            </tbody>
-          </table>
-          <footer>
-            <div class="left">
-              <button>+</button>
-            </div>
-            <div class="right">
-              <button>Delete</button>
-              <button>Edit</button>
-            </div>
-          </footer>
-        </div>
-      </main>
-      <footer></footer>
+        </main>
+        <footer class="main-footer"></footer>
+      </div>
+    </div>
   </body>
 </html>
