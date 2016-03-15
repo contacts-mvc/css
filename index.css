@@ -78,6 +78,12 @@ input[type="search"] {
   background: rgba(0,0,0,0.1);
 }
 
+.empty {
+  text-align: center;
+  align-self: center;
+  flex: 1;
+}
+
 .details {
   display: flex;
   flex-direction: column;
